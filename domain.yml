@@ -1,0 +1,135 @@
+actions:
+- action_ask_car_rentals
+- action_ask_restaurants
+- action_ask_tourist_attraction
+- utter_ask_isbot
+- utter_ask_whatspossible
+- utter_default
+- utter_goodbye
+- utter_greet
+- utter_handleinsult
+- utter_out_of_scope
+- utter_slots_values
+- utter_submit
+entities:
+- GPE
+- checkin_date
+- checkout_date
+- email
+- location
+- num_of_children
+- num_of_guests
+- number
+- room_type
+- time
+forms:
+- hotel_form
+intents:
+- request_hotel
+- ask_whatspossible
+- ask_carrentals
+- out_of_scope
+- ask_restaurants
+- goodbye
+- handle_insult
+- greet
+- ask_touristattraction
+- ask_isbot
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  checkin_date:
+    auto_fill: false
+    type: unfeaturized
+  checkout_date:
+    auto_fill: false
+    type: unfeaturized
+  email:
+    auto_fill: false
+    type: unfeaturized
+  location:
+    auto_fill: false
+    type: unfeaturized
+  num_of_children:
+    auto_fill: false
+    type: unfeaturized
+  num_of_guests:
+    auto_fill: false
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  room_type:
+    auto_fill: false
+    type: unfeaturized
+templates:
+  utter_ask_checkin_date:
+  - text: Please provide the Check-in date
+  utter_ask_checkout_date:
+  - text: Please provide the Check-out date
+  utter_ask_email:
+  - text: How would you like to be contacted for confirmation? (Provide Email ID)
+  utter_ask_isbot:
+  - text: Yep, I'm a bot!
+  - text: Yes, I'm a bot.
+  - text: Yep, you guessed it, I'm a bot!
+  - text: I am indeed a bot!
+  utter_ask_location:
+  - text: Please provide the place where you are looking for?
+  - text: Can you tell me the City name you are travelling?
+  utter_ask_num_of_children:
+  - text: Number of Children? [0-10]
+  utter_ask_num_of_guests:
+  - text: How many people should I book room? [1-10]
+  utter_ask_room_type:
+  - buttons:
+    - payload: '/request_hotel{"room_type": "Standard Room"}'
+      title: Standard Room
+    - payload: '/request_hotel{"room_type": "Deluxe Room"}'
+      title: Deluxe Room
+    - payload: '/request_hotel{"room_type": "Suites"}'
+      title: Suites
+    text: Please select the room type (Standard Room, Deluxe Room and Suites)
+  utter_ask_whatspossible:
+  - buttons:
+    - payload: '/request_hotel{"location": "Paris"}'
+      title: Book a hotel in Paris?
+    - payload: '/ask_touristattraction{"location": "Amsterdam", "GPE": "Amsterdam"}'
+      title: Sight Seeing place near Amsterdam
+    - payload: '/ask_restaurants{"location": "New York", "GPE": "New York"}'
+      title: Restaurants in New York?
+    text: "You can ask me to Book a hotel, Tourist Attractions, Restaurants and Car\
+      \ Rentals in your favorite destination. \n You can start by asking to Book a\
+      \ hotel in Paris?"
+  - text: I can help you with Booking a hotel, SightSeeing places, Restaurants and
+      Car Rentals about a place. Ask SightSeeing places in Japan? or Car rentals available
+      in New York? or Top restaurants in Goa?
+  utter_default:
+  - text: Sorry, I didn't get that. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, I didn't understand you.
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey there! I'm TravelBot. I can help you to book hotel, look for restuarants,
+      tourist attraction and car rentals in your favorite destination. Ask me, book
+      a hotel in Paris?
+  - text: Hola! I'm your TravelBud. Are you looking for restuarants? Just ask, Top
+      restuarants in New York? I can also help you in Booking a hotel, SightSeeing
+      places and Car Rentals in specified location.
+  utter_handleinsult:
+  - text: That's not very nice.
+  - text: That wasn't very nice. Perhaps try an anger management class?
+  - text: I'll pretend I didn't process that mean comment.
+  utter_out_of_scope:
+  - text: I can't help you with that, I'm sorry.
+  - text: Sorry, I can’t deal with that request.
+  - text: I'm sorry, I can''t handle that request.
+  - text: Even a Rasa bot is not completely perfect - it seems like I can't handle
+      that request.
+  utter_slots_values:
+  - text: "Hotel Booking Summary:\n Check In: {checkin_date}\n Check Out: {checkout_date}\n\
+      \ Number of Guests: {num_of_guests}\n Number of Children: {num_of_children}"

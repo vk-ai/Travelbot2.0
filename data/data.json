@@ -1,0 +1,7573 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweet boy"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweatheart"
+      },
+      {
+        "intent": "goodbye",
+        "text": "toodle-oo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye was nice talking to you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Bengaluru",
+            "entity": "location"
+          }
+        ],
+        "text": "I need to book hotel in Bengaluru"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "Johor Bahru",
+            "entity": "location"
+          }
+        ],
+        "text": "Best hotels in Johor Bahru"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Book a room in Ipoh"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Hotel available in Kuala Lumpur"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "New York City",
+            "entity": "location"
+          }
+        ],
+        "text": "Look hotels in New York City"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Melaka",
+            "entity": "location"
+          }
+        ],
+        "text": "I'm looking to book hotel in Melaka"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "FUCK FUCK"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck Off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "God you're a moron"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I can't believe how dumb you are"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I hate you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Loser"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are a fool."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are an idiot."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are dumb."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are shortsighted."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are unintelligent."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are unknowing."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You brain is dull."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no brains."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no intelligence."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no sense."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You know nothing."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You lack intelligence."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You lack understanding."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're a dolt."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're foolish."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're an idiot."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your intelligence is laughable."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your mindset is naive."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "a baby knows more than you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "are u dump?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "are you brain dead?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "bloody dunce"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "but you are idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "deal with my ass, you bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck rasa"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you machine learning bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you travelbot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you!"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fucking stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fucking work"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "get lost"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go die bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go away and die"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go fuck yourself"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go kill yourself"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go to hell"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "how can you be such an idiot?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i hate you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i hate your dumb face"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i think that you're a bullshit"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "insult you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok shut up"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "travelbot you look like a burnt sparrow"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shit"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shit bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shut up asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "so dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "so fucking dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "sucker"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "that wasn't very funny"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "that was a terrible fucking joke"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "u r a piece of junk"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ur a pussy"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "what fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "yep but you are idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are a moron"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are fucking stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you son of a bitch"
+      },
+      {
+        "intent": "greet",
+        "text": "Yo"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go and die somewhere"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Kill yourself"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a real bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "what are you, a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "tell me, are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial intelligence"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "i guess you are a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Hi there, are you the bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "So I'm here Today to ask one very simple question, what are you ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you sure that you're a bot?"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "What are the restaurants in malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "Good restaurants in malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice restaurants in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "George Town",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice restros in George Town"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Restaurants in Ipoh"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Johor Bahru",
+            "entity": "location"
+          }
+        ],
+        "text": "Great restaurants in Johor Bahru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Kuantan",
+            "entity": "location"
+          }
+        ],
+        "text": "Restaurants to visit in Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Kuching",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to eat in Kuching"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Malacca",
+            "entity": "location"
+          }
+        ],
+        "text": "Where can I eat good food in Malacca"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Miri",
+            "entity": "location"
+          }
+        ],
+        "text": "Good place to eat in Miri"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Bengaluru",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice place to eat in Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice restaurants in New York"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Place where can I get good food in Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to visit in Malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Sightseeing places in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "George Town",
+            "entity": "location"
+          }
+        ],
+        "text": "Tourist places in George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Great places to travel in Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Top places to visit in London"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "Best places to visit in Amsterdam"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "France",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to visit in France"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Tourist places in Ipoh"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 35,
+            "end": 46,
+            "value": "Johor Bahru",
+            "entity": "location"
+          }
+        ],
+        "text": "What are the places I can visit in Johor Bahru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "Sightseeing places in India"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Kuantan",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the places which I can travel in Kuantan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Rajasthan",
+            "entity": "location"
+          }
+        ],
+        "text": "Destination places in Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to travel in Kerala"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "Any cars available for rentals in Malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Car rentals in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Renting cars in Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me any car rentals in Ipoh"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Cars available for rents in London"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Bengaluru",
+            "entity": "location"
+          }
+        ],
+        "text": "Please provide me car rentals details in Bengaluru"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "Renting cars in Amsterdam"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "Cars available for renting purpose in New York"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "4 + 2 = ?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Are you ready?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "But you're an english site :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can I ask you questions first?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can I die"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can I get a hamburger?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can YouTube talk?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can you call me back ?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can you give me your datacenter's password"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can you give me your datacenter's password?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can you make sandwiches?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can you please send me an uber"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Do I have to accept?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Do you know Kevin Pelton"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Find nearest pizzahut"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Have we met before?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "HomeBase is advertised as a community. Is there a way to interact with other members of the community?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I wan to buy a plane"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I wanna marry you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I want a new laptop"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Make me a sandwich"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "What is your hobbies?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "The weather is good"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Who are your customers"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Why don’t you answer?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I want to marry you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "aRE YOU SINGLE"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "are you single?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you cook dinner"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "call me father"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can we keep chatting?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you speak about politic ?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me with your docs?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "chgfhgh"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "asdfasdfk;lajdfljkadfsklajsdfasadf"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you believe in god?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you have your photo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "will u kill me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Can you explain me in one sentence what you are doing?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Can you help me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Could you please show me what you can"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Great, is there anything else you can do, bot?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "How can you help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "How you help me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "I need help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "I need some help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What are my options"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What are you able to do?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can I ask you?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can I do?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can you demo"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can you do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can you do for me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can you do?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What can you tell me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "What do you do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "are there any other options?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "can you do anything else?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "cool! can I do something else here?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help please"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can i use you"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can you help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "show me the menu"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what can you do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "talk to me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can I do here"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what you can do for me?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "Johor Bahru",
+            "entity": "location",
+            "confidence": 0.9712900743682531,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Best hotels in Johor Bahru"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Kuala Lumpur",
+            "entity": "location",
+            "confidence": 0.9776516511201386,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Hotel available in Kuala Lumpur"
+      },
+      {
+        "intent": "goodbye",
+        "text": "26th January"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "29th Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "number"
+          }
+        ],
+        "text": "4"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "number"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Standard Room",
+            "entity": "room_type"
+          }
+        ],
+        "text": "Standard Room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "vk@gmail.com",
+            "entity": "email"
+          }
+        ],
+        "text": "vk@gmail.com"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Bengaluru",
+            "entity": "location",
+            "confidence": 0.9694808494762092,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "I need to book hotel in Bengaluru"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "15th Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "16 Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "3"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "1"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deluxe Room",
+            "entity": "room_type"
+          }
+        ],
+        "text": "Deluxe Room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "vk@vk.com",
+            "entity": "email"
+          }
+        ],
+        "text": "vk@vk.com"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I dont understand you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Are you single?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "asdf kljflasd lk;sdfk"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Kuantan",
+            "entity": "location",
+            "confidence": 0.9702180199182378,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restaurants to visit in Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Kuantan",
+            "entity": "location",
+            "confidence": 0.9701044004945046,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restaurants to visit in Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "New York",
+            "entity": "location",
+            "confidence": 0.9444842537414793,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Nice restaurants in New York"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.969258186304115,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "places to eat in Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Bangalore",
+            "entity": "location",
+            "confidence": 0.9502332964046261,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Good places to eat in Bangalore"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.9779902627037452,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "book hotel in Singapore"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "26 Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "27 Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Standard Room",
+            "entity": "room_type",
+            "confidence": 0.8387065466023297,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Standard Room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "zxcv@gmail.com",
+            "entity": "email"
+          }
+        ],
+        "text": "zxcv@gmail.com"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can you order me lunch?"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.9779902495272693,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Place where can I get good food in Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "New York",
+            "entity": "location",
+            "confidence": 0.9588713731057977,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restuarants in New York"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.9839630709857409,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Place where can I get good food in Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.9858482795247876,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Place where can I get good food in Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.9872272585574509,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Place where can I get good food in Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Rajasthan",
+            "entity": "location",
+            "confidence": 0.947434331161534,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Destination places in Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Bengaluru",
+            "entity": "location",
+            "confidence": 0.9760609710446412,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "places to visit in Bengaluru"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "asdfjklasdfkl;"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "jlksjadf sadkjfalsdkjf skdjaflaksdjflas asdlkjflaksdjf"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Paris",
+            "entity": "location",
+            "confidence": 0.9414071293278621,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "any car rentals available in Paris?"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "New York",
+            "entity": "location",
+            "confidence": 0.9671709990935109,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "rental cars in New York"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Need to book hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "1 Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "14 Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "15 Jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "London"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "number",
+            "confidence": 0.646924051429528,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "4"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Suites",
+            "entity": "room_type"
+          }
+        ],
+        "text": "Suites"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "jak@yahoo.co.in",
+            "entity": "email"
+          }
+        ],
+        "text": "jak@yahoo.co.in"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you do for me"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I hate you, motherfucker"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I love you"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Book a hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Book hotel"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sdf"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Hotel booking"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "looking for a hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Need hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Need to book a hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "hotels"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Good hotel booking"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "hotels nearby"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "book hotels"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuckoff"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck yourself"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are dead"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i'll kill you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i will kill you"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "you are stupid idiot"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Belgium",
+            "entity": "location"
+          }
+        ],
+        "text": "Car rentals in Belgium"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "rent cars in Paris"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "Top restaurants in New York"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Restaurants to eat in Singapore"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "yu bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "robot"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you do "
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "functions"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "tasks"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "features"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what are your tasks"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "book hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "27 Feb"
+      },
+      {
+        "intent": "greet",
+        "text": "Malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Standard Room",
+            "entity": "room_type",
+            "confidence": 0.9142965532868176,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Standard Room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "jack@live.com",
+            "entity": "email",
+            "confidence": 0.728299278791612,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "jack@live.com"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how are you?"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "entity": "GPE",
+            "value": "Amsterda",
+            "start": 27,
+            "confidence": null,
+            "end": 35,
+            "extractor": "SpacyEntityExtractor"
+          }
+        ],
+        "text": "3: Sight Seeing place near Amsterda"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuckoff"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who are you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 20,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "place for food near Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 26,
+            "value": "san francisco"
+          }
+        ],
+        "text": "place for food located at san francisco"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 37,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi plz place for food in the area of san francisco location thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 28,
+            "value": "malaysia"
+          }
+        ],
+        "text": "where to eat in the area of malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 22,
+            "value": "malaysia"
+          }
+        ],
+        "text": "restro in the area of malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 18,
+            "value": "new york"
+          }
+        ],
+        "text": "restro located at new york"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 23,
+            "value": "atlanta"
+          }
+        ],
+        "text": "restaurants located at atlanta"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 33,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi please find hungry located at Kuching location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 17,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "restaurants near Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 29,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hey nearby restro located at Ipoh location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "location",
+            "start": 12,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "restro near Ipoh"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 48,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey plz help me find restaurants in the area of George Town location thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "location",
+            "start": 12,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hungry near Ipoh"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 48,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi i'm looking for places to eat in the area of san francisco"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 21,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hi restro located at Bengaluru thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "atlanta"
+          }
+        ],
+        "text": "restro in the area of atlanta"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 21,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi restro located at atlanta thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 31,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi i'm looking for hungry near malaysia location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 42,
+            "value": "George Town"
+          }
+        ],
+        "text": "hi plz nearby where to eat in the area of George Town location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 36,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hey please places to eat located at Kuching location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 42,
+            "value": "Malacca"
+          }
+        ],
+        "text": "please i'm looking for places to eat near Malacca location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 36,
+            "value": "malaysia"
+          }
+        ],
+        "text": "please find where to eat located at malaysia thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 26,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi find where to eat near Malacca location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "location",
+            "start": 12,
+            "value": "new york"
+          }
+        ],
+        "text": "hungry near new york"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 17,
+            "value": "malaysia"
+          }
+        ],
+        "text": "restaurants near malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 54,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi please i'm looking for where to eat in the area of Malacca thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 18,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hello restro near Kuching thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "location",
+            "start": 51,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hey pls help me find place for food in the area of Malacca location thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 43,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hey plz help me find hungry in the area of malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 48,
+            "value": "George Town"
+          }
+        ],
+        "text": "hi plz i'm looking for places to eat located at George Town thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 37,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hello help me find restro located at Kuantan thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 36,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey please find place for food near atlanta location thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "location",
+            "start": 12,
+            "value": "malaysia"
+          }
+        ],
+        "text": "restro near malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 20,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hi find restro near Ipoh thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey place for food located at atlanta location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 34,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hi help me find where to eat near Ipoh thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 42,
+            "value": "George Town"
+          }
+        ],
+        "text": "i'm looking for place for food located at George Town location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "location",
+            "start": 50,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hello please nearby place for food in the area of Kuala Lumpur location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 36,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi pls find where to eat located at malaysia thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 29,
+            "value": "George Town"
+          }
+        ],
+        "text": "places to eat in the area of George Town"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 12,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hungry near san francisco"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 19,
+            "value": "new york"
+          }
+        ],
+        "text": "places to eat near new york"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 49,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hello pls help me find place for food located at Kuching location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "restaurants located at Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 25,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi plz hungry located at Kuching thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 22,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hungry in the area of Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 28,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "where to eat in the area of Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 46,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hello i'm looking for where to eat located at Kuantan thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 19,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "places to eat near Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 42,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hello please nearby restro in the area of Malacca location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 42,
+            "value": "Singapore"
+          }
+        ],
+        "text": "pls i'm looking for restro in the area of Singapore thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 43,
+            "value": "malaysia"
+          }
+        ],
+        "text": "plz i'm looking for restaurants located at malaysia location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 30,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "place for food in the area of Ipoh"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "atlanta"
+          }
+        ],
+        "text": "place for food in the area of atlanta"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "location",
+            "start": 38,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hi pls nearby where to eat located at Ipoh location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 38,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hi pls help me find restro located at Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 31,
+            "value": "Malacca"
+          }
+        ],
+        "text": "please find places to eat near Malacca location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 26,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "place for food located at Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 50,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey plz help me find places to eat in the area of George Town thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 37,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi pls find places to eat located at malaysia location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "location",
+            "start": 30,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "place for food in the area of Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 57,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hello please i'm looking for where to eat in the area of Ipoh location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "location",
+            "start": 12,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "restro near Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 29,
+            "value": "Singapore"
+          }
+        ],
+        "text": "places to eat in the area of Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 25,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "places to eat located at Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 35,
+            "value": "new york"
+          }
+        ],
+        "text": "hey plz find restro in the area of new york location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 27,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hey plz places to eat near Singapore thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 35,
+            "value": "Miri"
+          }
+        ],
+        "text": "plz help me find hungry located at Miri location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 44,
+            "value": "malaysia"
+          }
+        ],
+        "text": "please help me find where to eat located at malaysia thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "Kuching"
+          }
+        ],
+        "text": "restro in the area of Kuching"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 40,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hi please help me find restaurants near Singapore thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 39,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "plz find place for food in the area of Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 20,
+            "value": "malaysia"
+          }
+        ],
+        "text": "place for food near malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "location",
+            "start": 38,
+            "value": "new york"
+          }
+        ],
+        "text": "please help me find where to eat near new york"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 23,
+            "value": "George Town"
+          }
+        ],
+        "text": "restaurants located at George Town"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "location",
+            "start": 40,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hi please help me find restaurants near atlanta location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 31,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hi i'm looking for restro near Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 20,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hey plz hungry near Kuantan thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "location",
+            "start": 12,
+            "value": "Singapore"
+          }
+        ],
+        "text": "restro near Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 22,
+            "value": "George Town"
+          }
+        ],
+        "text": "hungry in the area of George Town"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 26,
+            "value": "Miri"
+          }
+        ],
+        "text": "plz hungry in the area of Miri thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 41,
+            "value": "new york"
+          }
+        ],
+        "text": "hello find place for food in the area of new york thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 20,
+            "value": "san francisco"
+          }
+        ],
+        "text": "place for food near san francisco"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 24,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "where to eat located at Ipoh"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 48,
+            "value": "new york"
+          }
+        ],
+        "text": "hello plz help me find places to eat located at new york thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 27,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "restaurants in the area of Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "location",
+            "start": 51,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hello please help me find places to eat located at Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 39,
+            "value": "George Town"
+          }
+        ],
+        "text": "hello please nearby places to eat near George Town"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuching"
+          }
+        ],
+        "text": "restaurants located at Kuching"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 46,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi pls i'm looking for restaurants located at san francisco location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 45,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hello plz i'm looking for places to eat near Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 40,
+            "value": "new york"
+          }
+        ],
+        "text": "hi plz find where to eat in the area of new york location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 35,
+            "value": "new york"
+          }
+        ],
+        "text": "hi plz find restaurants located at new york location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 40,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "pls help me find restaurants located at Bengaluru location thank you"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuching"
+          }
+        ],
+        "text": "restaurants located at Kuching location thanks"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 18,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "where to eat near Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 27,
+            "value": "Singapore"
+          }
+        ],
+        "text": "restaurants in the area of Singapore"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 45,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hi please help me find restro in the area of Singapore location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 38,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hey plz find places to eat located at Kuala Lumpur location"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 27,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hey find restro located at Ipoh location thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hi how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "hi morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good afternoon how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "morning whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hello how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "good night are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "good day how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hey morning are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "hi morning are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "hi how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "morning how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "hey how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "hey morning how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good night"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "hey whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hey greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "morning are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good afternoon how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "good night how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hi are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good night how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hi how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "hello morning whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hey are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good night"
+      },
+      {
+        "intent": "greet",
+        "text": "good night whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hi whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hello greetings how are you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 25,
+            "value": "malaysia"
+          }
+        ],
+        "text": "plz Places to visit near malaysia thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 31,
+            "value": "Malacca"
+          }
+        ],
+        "text": "Places to visit in the area of Malacca"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 16,
+            "value": "new york"
+          }
+        ],
+        "text": "Top places near new york"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "location",
+            "start": 54,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hi please Please provide me Tourist places located at Bengaluru location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 34,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Sightseeing places in the area of Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuching"
+          }
+        ],
+        "text": "Best places located at Kuching"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 26,
+            "value": "Miri"
+          }
+        ],
+        "text": "Tourist places located at Miri"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 22,
+            "value": "Miri"
+          }
+        ],
+        "text": "Top places located at Miri"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 31,
+            "value": "malaysia"
+          }
+        ],
+        "text": "Places to visit in the area of malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "location",
+            "start": 38,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hey tell me any places in the area of Ipoh location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 43,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi i'm looking for Sightseeing places near malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 48,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey plz help me find Places to visit located at George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 46,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey plz tell me any Tourist places located at George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 51,
+            "value": "Kerala"
+          }
+        ],
+        "text": "hello Please provide me Places to visit located at Kerala thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 46,
+            "value": "Kerala"
+          }
+        ],
+        "text": "hi pls find Sightseeing places in the area of Kerala thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "atlanta"
+          }
+        ],
+        "text": "Sightseeing places located at atlanta"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 65,
+            "entity": "location",
+            "start": 53,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hi please help me find Tourist places in the area of Kuala Lumpur thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 43,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hello pls find Great places in the area of Kuala Lumpur thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "places in the area of Kuantan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 27,
+            "value": "malaysia"
+          }
+        ],
+        "text": "Best places in the area of malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 40,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hey please find Sightseeing places near Singapore location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 46,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hello pls tell me any Great places located at Bengaluru thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 41,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello plz Places to visit in the area of atlanta thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 48,
+            "value": "new york"
+          }
+        ],
+        "text": "hey plz Please provide me Top places located at new york thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 42,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello pls i'm looking for Top places near atlanta thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 41,
+            "value": "George Town"
+          }
+        ],
+        "text": "plz nearby Sightseeing places located at George Town location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 26,
+            "value": "new york"
+          }
+        ],
+        "text": "hi nearby Top places near new york location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 18,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "Great places near Bengaluru thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 46,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hey Please provide me Sightseeing places near san francisco location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 36,
+            "value": "san francisco"
+          }
+        ],
+        "text": "plz find Best places in the area of san francisco thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 27,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "Best places in the area of Bengaluru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 22,
+            "value": "san francisco"
+          }
+        ],
+        "text": "places in the area of san francisco"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 18,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "places located at Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 26,
+            "value": "atlanta"
+          }
+        ],
+        "text": "Tourist places located at atlanta"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "location",
+            "start": 31,
+            "value": "George Town"
+          }
+        ],
+        "text": "Places to visit in the area of George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 18,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "places located at Bengaluru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 18,
+            "value": "Malacca"
+          }
+        ],
+        "text": "places located at Malacca"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 23,
+            "value": "san francisco"
+          }
+        ],
+        "text": "Best places located at san francisco"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 22,
+            "value": "san francisco"
+          }
+        ],
+        "text": "Top places located at san francisco"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "nearby Top places near Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 41,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hey pls tell me any Places to visit near Rajasthan location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 18,
+            "value": "malaysia"
+          }
+        ],
+        "text": "places located at malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 49,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi please help me find Top places in the area of Malacca location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 17,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Best places near Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 69,
+            "entity": "location",
+            "start": 58,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey please help me find Sightseeing places in the area of George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 16,
+            "value": "malaysia"
+          }
+        ],
+        "text": "Top places near malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 26,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "Top places in the area of Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 42,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi please i'm looking for Top places near Kuching thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 27,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "Places to visit located at Ipoh"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 21,
+            "value": "Miri"
+          }
+        ],
+        "text": "Places to visit near Miri"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 43,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hi i'm looking for Sightseeing places near Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 46,
+            "value": "Kuching"
+          }
+        ],
+        "text": "Please provide me Great places in the area of Kuching thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 43,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hi Please provide me Top places located at Rajasthan thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 21,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "Places to visit near Kuantan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 22,
+            "value": "Kerala"
+          }
+        ],
+        "text": "Top places located at Kerala"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 27,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "Best places in the area of Ipoh"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 44,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hello plz Please provide me Top places near Kuching thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "location",
+            "start": 39,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello please Tourist places located at atlanta location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 39,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "pls help me find Top places located at Kuala Lumpur thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "location",
+            "start": 56,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hello pls Please provide me Great places in the area of Kuantan thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 49,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hello please tell me any Great places located at Malacca"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "location",
+            "start": 37,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hey pls nearby Top places located at Singapore thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 33,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hello pls nearby Top places near Malacca location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "location",
+            "start": 51,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hey please Please provide me places in the area of Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 42,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hey plz i'm looking for Great places near Kuantan location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 45,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hi i'm looking for Top places in the area of Kuala Lumpur location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "location",
+            "start": 16,
+            "value": "atlanta"
+          }
+        ],
+        "text": "Top places near atlanta"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "atlanta"
+          }
+        ],
+        "text": "please nearby Top places near atlanta"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 22,
+            "value": "Miri"
+          }
+        ],
+        "text": "hello plz places near Miri location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 16,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "Top places near Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 39,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hey pls help me find places located at Rajasthan thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "location",
+            "start": 18,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "places located at Ipoh"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 18,
+            "value": "new york"
+          }
+        ],
+        "text": "places located at new york"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 27,
+            "value": "Malacca"
+          }
+        ],
+        "text": "Places to visit located at Malacca"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 50,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hey please help me find Top places in the area of Kuantan location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 42,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hello plz i'm looking for Top places near Kuala Lumpur"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 41,
+            "value": "George Town"
+          }
+        ],
+        "text": "please tell me any places in the area of George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 44,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hey pls i'm looking for Tourist places near Kuantan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 50,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hi plz help me find Tourist places in the area of Singapore location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "Kuching"
+          }
+        ],
+        "text": "Sightseeing places located at Kuching"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "location",
+            "start": 12,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "places near Ipoh"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 46,
+            "value": "Kerala"
+          }
+        ],
+        "text": "hi plz help me find Top places in the area of Kerala location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 30,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Tourist places in the area of Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 39,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "plz nearby Great places in the area of Ipoh location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 44,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hello please help me find Great places near Ipoh thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 24,
+            "value": "Singapore"
+          }
+        ],
+        "text": "plz Tourist places near Singapore location thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 53,
+            "value": "Miri"
+          }
+        ],
+        "text": "hey pls Please provide me Places to visit located at Miri location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 37,
+            "value": "new york"
+          }
+        ],
+        "text": "hi please find Top places located at new york thank you"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 47,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hi plz tell me any Great places in the area of Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 31,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "find Top places in the area of Rajasthan location"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 39,
+            "value": "George Town"
+          }
+        ],
+        "text": "please tell me any Tourist places near George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 26,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "Top places in the area of Bengaluru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 35,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hey plz Places to visit located at Rajasthan thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 20,
+            "value": "George Town"
+          }
+        ],
+        "text": "Tourist places near George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "location",
+            "start": 57,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hey plz Please provide me Places to visit in the area of Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 37,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi i'm looking for Great places near san francisco thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 27,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "Places to visit located at Ipoh thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "location",
+            "start": 18,
+            "value": "Miri"
+          }
+        ],
+        "text": "Great places near Miri"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 43,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hello pls nearby Top places in the area of malaysia location thanks"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 18,
+            "value": "Malacca"
+          }
+        ],
+        "text": "Great places near Malacca"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 54,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hello pls Please provide me cars available located at Kuching location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 49,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi please i'm looking for car rentals located at Kuching location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 28,
+            "value": "Singapore"
+          }
+        ],
+        "text": "provide me car rentals near Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 23,
+            "value": "George Town"
+          }
+        ],
+        "text": "car rentals located at George Town"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 47,
+            "value": "new york"
+          }
+        ],
+        "text": "hey Please provide me car rentals details near new york location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 39,
+            "value": "George Town"
+          }
+        ],
+        "text": "hello i'm looking for car rentals near George Town location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 20,
+            "value": "Malacca"
+          }
+        ],
+        "text": "cars in the area of Malacca"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 28,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "provide me car rentals near Ipoh"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "location",
+            "start": 38,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi nearby Renting cars in the area of malaysia location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 28,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "plz Renting cars located at Ipoh location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 17,
+            "value": "Malacca"
+          }
+        ],
+        "text": "car rentals near Malacca"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 24,
+            "value": "Miri"
+          }
+        ],
+        "text": "Renting cars located at Miri"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 25,
+            "value": "atlanta"
+          }
+        ],
+        "text": "car rentals details near atlanta"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "car rentals located at Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 49,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hey nearby provide me car rentals in the area of Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 31,
+            "value": "new york"
+          }
+        ],
+        "text": "hello pls find cars located at new york thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 46,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hey pls nearby car rentals details located at malaysia location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 43,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hello pls nearby cars available located at Malacca thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 31,
+            "value": "atlanta"
+          }
+        ],
+        "text": "help me find Renting cars near atlanta"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 28,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Renting cars in the area of Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 45,
+            "value": "new york"
+          }
+        ],
+        "text": "hi i'm looking for cars available located at new york location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 50,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hey pls tell me any cars available in the area of Singapore location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "location",
+            "start": 10,
+            "value": "atlanta"
+          }
+        ],
+        "text": "cars near atlanta"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "location",
+            "start": 30,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "cars available in the area of Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "Malacca"
+          }
+        ],
+        "text": "please find cars near Malacca thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 24,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Renting cars located at Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 50,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey plz tell me any cars available in the area of atlanta thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 49,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hey Please provide me car rentals in the area of Malacca thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 40,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hi please cars available in the area of Bengaluru thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "location",
+            "start": 53,
+            "value": "malaysia"
+          }
+        ],
+        "text": "please Please provide me Renting cars in the area of malaysia location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "location",
+            "start": 59,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hey pls help me find provide me car rentals in the area of Ipoh location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 17,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "car rentals near Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "location",
+            "start": 34,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hey help me find car rentals near Kuantan thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 25,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi find car rentals near malaysia location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 40,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hello nearby car rentals in the area of Singapore thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 24,
+            "value": "Kuching"
+          }
+        ],
+        "text": "pls cars in the area of Kuching"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 32,
+            "value": "Malacca"
+          }
+        ],
+        "text": "please car rentals details near Malacca location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 20,
+            "value": "George Town"
+          }
+        ],
+        "text": "cars available near George Town"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 37,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hello find cars available located at Kuantan"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 36,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hi please i'm looking for cars near Kuantan thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "location",
+            "start": 16,
+            "value": "Kuching"
+          }
+        ],
+        "text": "cars located at Kuching"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 63,
+            "entity": "location",
+            "start": 56,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey plz help me find car rentals details in the area of atlanta location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "location",
+            "start": 49,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hey pls nearby provide me car rentals located at Kuching thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 28,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "provide me car rentals near Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 29,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi plz tell me any cars near Kuching thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 44,
+            "value": "George Town"
+          }
+        ],
+        "text": "hello please car rentals details located at George Town thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 28,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "provide me car rentals near Kuantan"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 26,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "cars available located at Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 18,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Renting cars near Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 48,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hi pls help me find Renting cars in the area of Kuantan location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 26,
+            "value": "Miri"
+          }
+        ],
+        "text": "cars available located at Miri"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "location",
+            "start": 10,
+            "value": "malaysia"
+          }
+        ],
+        "text": "cars near malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 46,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hello plz i'm looking for cars available near Kuantan"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "location",
+            "start": 38,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "provide me car rentals in the area of Bengaluru"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "location",
+            "start": 33,
+            "value": "new york"
+          }
+        ],
+        "text": "hi please car rentals located at new york"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "location",
+            "start": 46,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi please i'm looking for cars available near san francisco location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 37,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi i'm looking for Renting cars near Kuching location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 24,
+            "value": "atlanta"
+          }
+        ],
+        "text": "Renting cars located at atlanta"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 27,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hey nearby cars located at Kuching thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 45,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hey plz help me find Renting cars located at Malacca location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 17,
+            "value": "san francisco"
+          }
+        ],
+        "text": "car rentals near san francisco"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "location",
+            "start": 59,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hi please Please provide me car rentals details located at Kuantan location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 25,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hey plz car rentals near Singapore location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 50,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "plz i'm looking for cars available in the area of Ipoh thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuching"
+          }
+        ],
+        "text": "car rentals located at Kuching"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 41,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hey plz help me find cars in the area of malaysia thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 24,
+            "value": "Miri"
+          }
+        ],
+        "text": "hi plz car rentals near Miri location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 25,
+            "value": "san francisco"
+          }
+        ],
+        "text": "car rentals details near san francisco"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 35,
+            "value": "malaysia"
+          }
+        ],
+        "text": "pls nearby Renting cars located at malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 32,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi please tell me any cars near malaysia thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 43,
+            "value": "George Town"
+          }
+        ],
+        "text": "hello pls help me find cars in the area of George Town"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 17,
+            "value": "malaysia"
+          }
+        ],
+        "text": "car rentals near malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 30,
+            "value": "san francisco"
+          }
+        ],
+        "text": "cars available in the area of san francisco"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 31,
+            "value": "Malacca"
+          }
+        ],
+        "text": "car rentals details located at Malacca"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 30,
+            "value": "Singapore"
+          }
+        ],
+        "text": "cars available in the area of Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "location",
+            "start": 51,
+            "value": "atlanta"
+          }
+        ],
+        "text": "please help me find car rentals details located at atlanta location"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 29,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey car rentals details near George Town location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 20,
+            "value": "malaysia"
+          }
+        ],
+        "text": "plz cars located at malaysia thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "location",
+            "start": 53,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi please i'm looking for car rentals in the area of Malacca thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 62,
+            "entity": "location",
+            "start": 51,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey pls Please provide me car rentals details near George Town location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 36,
+            "value": "san francisco"
+          }
+        ],
+        "text": "plz find car rentals in the area of san francisco thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 19,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi cars located at Malacca thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "location",
+            "start": 32,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hi plz nearby Renting cars near Singapore location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 28,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "Renting cars in the area of Ipoh"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 46,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "Please provide me provide me car rentals near Bengaluru location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 42,
+            "value": "George Town"
+          }
+        ],
+        "text": "plz nearby car rentals details located at George Town"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 27,
+            "value": "new york"
+          }
+        ],
+        "text": "hello pls car rentals near new york thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 33,
+            "value": "Malacca"
+          }
+        ],
+        "text": "please cars available located at Malacca"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "location",
+            "start": 32,
+            "value": "new york"
+          }
+        ],
+        "text": "hi plz nearby Renting cars near new york location thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "location",
+            "start": 16,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "cars located at Ipoh"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 28,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hello tell me any cars near Kuantan location thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 20,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "cars available near Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 38,
+            "value": "Kuching"
+          }
+        ],
+        "text": "provide me car rentals in the area of Kuching"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "location",
+            "start": 35,
+            "value": "Miri"
+          }
+        ],
+        "text": "hello find Renting cars located at Miri thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 17,
+            "value": "Singapore"
+          }
+        ],
+        "text": "car rentals near Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 46,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "plz Please provide me Renting cars located at Bengaluru thank you"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 26,
+            "value": "Malacca"
+          }
+        ],
+        "text": "cars available located at Malacca"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 23,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "car rentals located at Ipoh"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 37,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "tell me any car rentals details near Kuala Lumpur thanks"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 38,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "please find cars available located at Kuala Lumpur"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 42,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hey plz need to book hotel in the area of Kuching location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 22,
+            "value": "Kerala"
+          }
+        ],
+        "text": "hotels in the area of Kerala"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 17,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Look hotels near Singapore"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "location",
+            "start": 15,
+            "value": "new york"
+          }
+        ],
+        "text": "plz hotel near new york location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 47,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hey i'm looking for Best hotels in the area of Ipoh thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 11,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hotel near san francisco"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 23,
+            "value": "Kuching"
+          }
+        ],
+        "text": "Best hotels located at Kuching"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 17,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "Look hotels near Bengaluru"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 27,
+            "value": "George Town"
+          }
+        ],
+        "text": "look hotels in the area of George Town"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 31,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi plz tell me any hotels near Malacca thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "location",
+            "start": 36,
+            "value": "George Town"
+          }
+        ],
+        "text": "hey please nearby hotels located at George Town location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 17,
+            "value": "Malacca"
+          }
+        ],
+        "text": "Look hotels near Malacca"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 40,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "please i'm looking for Best hotels near Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 50,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey please tell me any look hotels in the area of atlanta location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 22,
+            "value": "san francisco"
+          }
+        ],
+        "text": "book hotel located at san francisco"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 40,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi pls nearby book hotel in the area of malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "hotel"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "location",
+            "start": 18,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hotels located at Ipoh"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 44,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello please booking look hotels located at atlanta thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 26,
+            "value": "Kerala"
+          }
+        ],
+        "text": "booking hotels located at Kerala"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 18,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hotels located at Singapore"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 27,
+            "value": "George Town"
+          }
+        ],
+        "text": "Best hotels in the area of George Town"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 45,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hi please help me find hotels in the area of Malacca location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 49,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hey please booking booking hotels in the area of malaysia location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 44,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hey please i'm looking for Look hotels near Kuching location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 39,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hey please find Best hotels located at san francisco location"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "location",
+            "start": 50,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hey please need to book book hotel in the area of malaysia thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 21,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hotel in the area of Kuching"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 22,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hotels in the area of Rajasthan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "location",
+            "start": 29,
+            "value": "Singapore"
+          }
+        ],
+        "text": "Please provide me hotel near Singapore thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "location",
+            "start": 22,
+            "value": "new york"
+          }
+        ],
+        "text": "book hotel located at new york thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "location",
+            "start": 26,
+            "value": "Malacca"
+          }
+        ],
+        "text": "book hotel in the area of Malacca"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hotels in the area of Kuantan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 64,
+            "entity": "location",
+            "start": 51,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi plz Please provide me book hotel in the area of san francisco thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 41,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hey nearby booking hotels in the area of Rajasthan location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 37,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi please i'm looking for hotel near Kuching location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 28,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi plz find book hotel near malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "find hotel located at Kuantan location"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 36,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "plz find look hotels in the area of Bengaluru location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "location",
+            "start": 34,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hello pls need to book hotel near Bengaluru thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 28,
+            "value": "Miri"
+          }
+        ],
+        "text": "hey plz booking hotels near Miri thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "location",
+            "start": 37,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hey pls nearby book hotel located at Bengaluru thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 48,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey pls help me find Look hotels in the area of atlanta thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 44,
+            "value": "new york"
+          }
+        ],
+        "text": "hey pls need to book look hotels located at new york location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 21,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hotel in the area of malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "location",
+            "start": 17,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "look hotels near Ipoh"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 41,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hi please booking Look hotels located at Bengaluru thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 27,
+            "value": "new york"
+          }
+        ],
+        "text": "look hotels in the area of new york"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 19,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hey plz hotel near atlanta location"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 42,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hello pls find Best hotels in the area of Rajasthan thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 49,
+            "value": "new york"
+          }
+        ],
+        "text": "hello pls Please provide me hotel in the area of new york thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 37,
+            "value": "George Town"
+          }
+        ],
+        "text": "please tell me any hotels located at George Town thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "location",
+            "start": 48,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hey pls Please provide me book hotel located at Kuala Lumpur location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "location",
+            "start": 54,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hello pls Please provide me booking hotels located at san francisco location"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "location",
+            "start": 33,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hi pls booking hotels located at san francisco location"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "location",
+            "start": 22,
+            "value": "Miri"
+          }
+        ],
+        "text": "hey hotels located at Miri location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 22,
+            "value": "san francisco"
+          }
+        ],
+        "text": "hotels in the area of san francisco"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "location",
+            "start": 17,
+            "value": "Miri"
+          }
+        ],
+        "text": "look hotels near Miri"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 16,
+            "value": "Singapore"
+          }
+        ],
+        "text": "book hotel near Singapore"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 42,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hello plz find Best hotels in the area of Singapore location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 32,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "tell me any booking hotels near Ipoh"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "location",
+            "start": 11,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hotel near Singapore"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 42,
+            "value": "Singapore"
+          }
+        ],
+        "text": "hello pls find look hotels in the area of Singapore location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "location",
+            "start": 42,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hello please need to book book hotel near Rajasthan thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "location",
+            "start": 47,
+            "value": "new york"
+          }
+        ],
+        "text": "plz need to book booking hotels in the area of new york thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 20,
+            "value": "Singapore"
+          }
+        ],
+        "text": "plz book hotel near Singapore location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "location",
+            "start": 12,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hotels near atlanta"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hey please nearby hotels near Kuantan thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "location",
+            "start": 23,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "Look hotels located at Rajasthan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "location",
+            "start": 37,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hi need to book hotel in the area of Kuching"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 36,
+            "value": "Rajasthan"
+          }
+        ],
+        "text": "hi plz tell me any look hotels near Rajasthan location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "location",
+            "start": 43,
+            "value": "Malacca"
+          }
+        ],
+        "text": "hey tell me any Best hotels in the area of Malacca"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "location",
+            "start": 44,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hello pls booking booking hotels located at Ipoh location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "location",
+            "start": 46,
+            "value": "Kerala"
+          }
+        ],
+        "text": "hey plz Please provide me booking hotels near Kerala location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 21,
+            "value": "new york"
+          }
+        ],
+        "text": "hotel in the area of new york"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 27,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "Look hotels in the area of Bengaluru"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "location",
+            "start": 35,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "hello tell me any hotel located at Kuala Lumpur thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "location",
+            "start": 26,
+            "value": "malaysia"
+          }
+        ],
+        "text": "booking hotels located at malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 27,
+            "value": "malaysia"
+          }
+        ],
+        "text": "Look hotels in the area of malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "location",
+            "start": 30,
+            "value": "Malacca"
+          }
+        ],
+        "text": "booking hotels in the area of Malacca"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "location",
+            "start": 16,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "book hotel near Ipoh"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 17,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "hotel located at Kuantan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 34,
+            "value": "George Town"
+          }
+        ],
+        "text": "pls help me find Look hotels near George Town thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "location",
+            "start": 46,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello help me find Look hotels in the area of atlanta location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "location",
+            "start": 18,
+            "value": "atlanta"
+          }
+        ],
+        "text": "hello hotels near atlanta location thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "location",
+            "start": 37,
+            "value": "new york"
+          }
+        ],
+        "text": "pls need to book booking hotels near new york thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "location",
+            "start": 11,
+            "value": "Miri"
+          }
+        ],
+        "text": "hotel near Miri"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "location",
+            "start": 29,
+            "value": "Kerala"
+          }
+        ],
+        "text": "hey please nearby hotel near Kerala thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "location",
+            "start": 20,
+            "value": "George Town"
+          }
+        ],
+        "text": "booking hotels near George Town"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "location",
+            "start": 16,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "text": "book hotel near Kuala Lumpur"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "location",
+            "start": 22,
+            "value": "Kuantan"
+          }
+        ],
+        "text": "book hotel located at Kuantan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "location",
+            "start": 40,
+            "value": "atlanta"
+          }
+        ],
+        "text": "help me find Best hotels in the area of atlanta location"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "location",
+            "start": 41,
+            "value": "malaysia"
+          }
+        ],
+        "text": "hi please find book hotel in the area of malaysia"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "location",
+            "start": 17,
+            "value": "Malacca"
+          }
+        ],
+        "text": "look hotels near Malacca"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "location",
+            "start": 49,
+            "value": "new york"
+          }
+        ],
+        "text": "hey pls Please provide me Look hotels located at new york"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "location",
+            "start": 23,
+            "value": "san francisco"
+          }
+        ],
+        "text": "Look hotels located at san francisco"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "location",
+            "start": 23,
+            "value": "Miri"
+          }
+        ],
+        "text": "look hotels located at Miri"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "location",
+            "start": 11,
+            "value": "Bengaluru"
+          }
+        ],
+        "text": "hotel near Bengaluru"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "location",
+            "start": 50,
+            "value": "Ipoh"
+          }
+        ],
+        "text": "hello pls help me find Best hotels in the area of Ipoh location thank you"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "location",
+            "start": 12,
+            "value": "Kuching"
+          }
+        ],
+        "text": "hotels near Kuching"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "malaysia",
+            "entity": "location",
+            "confidence": 0.9914371502062439,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "restaurants in malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Malaysia",
+            "entity": "location",
+            "confidence": 0.9807649461386935,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "car rentals in Malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "malaysia",
+            "entity": "location",
+            "confidence": 0.9914370439342769,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "tourist attractions in malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "malaysia",
+            "entity": "location",
+            "confidence": 0.991974358007888,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "car rentals in malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "text": "tourist places in sweden"
+      },
+      {
+        "intent": "greet",
+        "text": "22jan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "23 jan"
+      },
+      {
+        "intent": "greet",
+        "text": "paris"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "0"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "number",
+            "confidence": 0.5872185724405518,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deluxe Room",
+            "entity": "room_type",
+            "confidence": 0.854297387100695,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Deluxe Room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "vk@vk.com",
+            "entity": "email",
+            "confidence": 0.8650233177930068,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "vk@vk.com"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "malaysia",
+            "entity": "location",
+            "confidence": 0.9916345395290651,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restaurants in malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Paris",
+            "entity": "location",
+            "confidence": 0.9380795708984749,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "car rentals in Paris"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you do"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Japan",
+            "entity": "location",
+            "confidence": 0.8324585105494955,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "tourist places to visit in Japan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location",
+            "confidence": 0.9085152125801227,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "book hotel in London"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Amsterdam",
+            "entity": "location",
+            "confidence": 0.9337298254346401,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Sight Seeing place near Amsterdam"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "New York",
+            "entity": "location",
+            "confidence": 0.9950011271956335,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restaurants in New York?"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location",
+            "confidence": 0.934781368614699,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "book hotel in London"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "22 jan"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "standard room",
+            "entity": "room_type"
+          }
+        ],
+        "text": "standard room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "vk@gmail.com",
+            "entity": "email",
+            "confidence": 0.8920544239060262,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "vk@gmail.com"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you order online"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "1 feb"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "2 feb"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Deluxe Room",
+            "entity": "room_type",
+            "confidence": 0.91967055861769,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Deluxe Room"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "2feb"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Poland"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "number",
+            "confidence": 0.731888357992127,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Suites",
+            "entity": "room_type",
+            "confidence": 0.7154729884626809,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Suites"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "v@k.com",
+            "entity": "email",
+            "confidence": 0.7100096261928683,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "v@k.com"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "1 mar"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "3 mar"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Suites",
+            "entity": "room_type",
+            "confidence": 0.8450701656028589,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Suites"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "vk@gk.com",
+            "entity": "email",
+            "confidence": 0.9275054088420274,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "vk@gk.com"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Japan",
+            "entity": "location",
+            "confidence": 0.9100772860083733,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "restaurants in Japan"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "1 aug"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "2 aug"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "germany"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "4",
+            "entity": "number",
+            "confidence": 0.7808833445020703,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "4"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Suites",
+            "entity": "room_type",
+            "confidence": 0.89227630593559,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Suites"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "vk@gmail.com",
+            "entity": "email",
+            "confidence": 0.9434118137761757,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "vk@gmail.com"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Bengaluru",
+            "entity": "location",
+            "confidence": 0.993438768656242,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "restaurants in Bengaluru"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Chennai",
+            "entity": "location",
+            "confidence": 0.8237760971963338,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "car rentals in Chennai"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "21 apr"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "22 apr"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Greece"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "7"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Standard Room",
+            "entity": "room_type",
+            "confidence": 0.978754079110231,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Standard Room"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "jg@gk.com",
+            "entity": "email",
+            "confidence": 0.8810054289559798,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "jg@gk.com"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Greece",
+            "entity": "location",
+            "confidence": 0.8018914649330392,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "car rentals in Greece"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "Sweden"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "number",
+            "confidence": 0.7879341909933729,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Suites",
+            "entity": "room_type",
+            "confidence": 0.9167891570340762,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Suites"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "v@g.com",
+            "entity": "email",
+            "confidence": 0.810358637237174,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "v@g.com"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Bengaluru",
+            "entity": "location",
+            "confidence": 0.9948028190260962,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "book cars in Bengaluru"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "are you single"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Chennai",
+            "entity": "location",
+            "confidence": 0.9027015060009257,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "places to eat near Chennai"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "22 Aug"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "23 Aug"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "Bangalore"
+      },
+      {
+        "intent": "request_hotel",
+        "text": "9"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Suites",
+            "entity": "room_type",
+            "confidence": 0.9326133230262263,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Suites"
+      },
+      {
+        "intent": "request_hotel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "v@k.com",
+            "entity": "email",
+            "confidence": 0.9440865247681711,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "v@k.com"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

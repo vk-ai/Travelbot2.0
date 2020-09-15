@@ -1,0 +1,28 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: CRFEntityExtractor
+  - name: EntitySynonymMapper
+  - name: CountVectorsFeaturizer
+    token_pattern: (?u)\b\w+\b
+  - name: EmbeddingIntentClassifier
+  - name: DucklingHTTPExtractor
+    url: http://192.168.99.100:8000
+    dimensions: ["time", "number"]
+  - name: SpacyNLP
+  - name: SpacyEntityExtractor
+    dimensions: ["GPE", "LOC"]
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: EmbeddingPolicy
+  - name: MemoizationPolicy
+  - name: MappingPolicy
+  - name: FormPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.8
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"
